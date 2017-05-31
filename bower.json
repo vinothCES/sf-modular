@@ -1,0 +1,17 @@
+{
+  "name": "sf-modular",
+  "description": "A sample application to test modular approach",
+  "main": "index.js",
+  "authors": [
+    "Vinoth J"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
