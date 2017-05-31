@@ -2,7 +2,7 @@
 <html>
 	<head>
         <meta charset="utf-8">
-        <meta name="author" content="CHANGE-ME">
+        <meta name="author" content="Vinoth J">
         <meta name="description" content="CHANGE-ME">
 
         <!-- Mobile Stuff -->
@@ -21,6 +21,11 @@
 
         <title>SFNG Modular Approach</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css">
+      
+        <!--bower:css-->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css" />
+        <!--endbower-->
 
     </head>
 
@@ -29,6 +34,16 @@
 
 
         <!-- Scripts -->
-
+        <!--bower:js-->
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.js"></script>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <!--endbower-->
+        
+        <!--inject:js-->
+        <script src="modules/app.module.js"></script>
+        <!--endinject-->
+      
     </body>
 </html>
