@@ -9,6 +9,7 @@
   "author": "Vinoth J",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.18.12",
     "gulp": "^3.9.1",
     "gulp-inject": "^4.2.0",
     "gulp-jscs": "^4.0.0",
